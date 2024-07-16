@@ -31,7 +31,7 @@ CFormer 是一個輕量級的網路，結合了 CNN 和 Transformer 的優勢進
 [MS-Celeb-1M 數據集](https://drive.google.com/file/d/1X202mvYe5tiXFhOx82z4rPiPogXD435i/view)
 
 將數據集轉換為 TFRecord 格式：
-
+bash
 python3 convert_train_binary_tfrecord.py
 
 
@@ -41,17 +41,18 @@ LFW: https://drive.google.com/file/d/1WO5Meh_yAau00Gm2Rz2Pc0SRldLQYigT/view
 
 ## Training
 模型採用Keras進行建模，主模型使用CFormer損失函數採用Arcface
-
+bash
 python3 train_cformer.py
 
-#Test
+## Test
 模型訓練完成後，在測試檔中導入模型權重，並使用ROC曲線作為評分標準
 
 python3 test.py
 ![Cformer Recognition ROC(acc_98 15 th_1 46)](https://github.com/user-attachments/assets/109bf7ee-ca15-4ed6-9ee9-50d260470a19)
 
-#模型部屬
+## 模型部屬
 採用TKinter部屬GUI介面，製作出一個人臉辨識的小程序
+bash
 python3 app.py
 執行後，進入人臉識別，輸入本地人臉圖庫目錄按下確認後再按下辨識
 ![image](https://github.com/user-attachments/assets/58bc55de-a7e8-4d3e-8faa-570eef375ab4)
