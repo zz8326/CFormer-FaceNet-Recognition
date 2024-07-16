@@ -57,8 +57,8 @@ python3 test.py
 python3 app.py
 ```
 執行後，進入人臉識別，輸入本地人臉圖庫目錄按下確認後再按下辨識
-<img src="https://github.com/user-attachments/assets/58bc55de-a7e8-4d3e-8faa-570eef375ab4" alt="GUI 界面 1" width="500">
-<img src="https://github.com/user-attachments/assets/c93dc480-4bc0-40f3-8507-67ac5a0ea72c" alt="GUI 界面 2" width="500">
+<img src="https://github.com/user-attachments/assets/58bc55de-a7e8-4d3e-8faa-570eef375ab4" alt="GUI 界面 1" width="600">
+<img src="https://github.com/user-attachments/assets/c93dc480-4bc0-40f3-8507-67ac5a0ea72c" alt="GUI 界面 2" width="600">
 
 
 
