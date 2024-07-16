@@ -31,7 +31,7 @@ CFormer 是一個輕量級的網路，結合了 CNN 和 Transformer 的優勢進
 [MS-Celeb-1M 數據集](https://drive.google.com/file/d/1X202mvYe5tiXFhOx82z4rPiPogXD435i/view)
 
 將數據集轉換為 TFRecord 格式：
-```sh
+
 python3 convert_train_binary_tfrecord.py
 
 
