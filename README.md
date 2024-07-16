@@ -35,11 +35,11 @@ CFormer 是一個輕量級的網路，結合了 CNN 和 Transformer 的優勢進
 python3 convert_train_binary_tfrecord.py
 
 
-#Test Dataset
+## 測試數據集
 測試集僅使用LFW進行測試
 LFW: https://drive.google.com/file/d/1WO5Meh_yAau00Gm2Rz2Pc0SRldLQYigT/view
 
-#Training
+## Training
 模型採用Keras進行建模，主模型使用CFormer損失函數採用Arcface
 
 python3 train_cformer.py
